@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: police-chase-3d
+    runtime: docker
+    plan: free
+    healthCheckPath: /
